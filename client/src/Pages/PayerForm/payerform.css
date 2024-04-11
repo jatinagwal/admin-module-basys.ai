@@ -1,0 +1,52 @@
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.form-title {
+  font-size: 2rem;
+  color: #d7d7d7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Changed from center */
+  justify-content: center;
+  gap: 24px;
+  width: 600px; /* Added a fixed width */
+}
+
+.form-input-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Changed from center */
+  gap: 0; /* Removed gap */
+}
+
+.form-label {
+  font-size: 1.5rem;
+  color: #d7d7d7;
+  text-align: right;
+  width: 200px; /* Increased width for labels */
+  margin-right: 24px; /* Added margin to create space */
+}
+
+.form-input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 8px;
+  width: 300px; /* Adjusted width for inputs */
+  font-size: 1.25rem;
+  color: #d7d7d7;
+}
+
+.form-input {
+  font-size: 1.25rem;
+  color: #b0b0b0;
+}
